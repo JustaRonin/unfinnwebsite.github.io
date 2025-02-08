@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay loop muted class="bgvid">
+        <source src=bgvid.mp4 type="video/mp4">
+    </video>
+    <div class="side-navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Cars</a>
+        <a href="#">Log in</a>
+        <div class="logo">
+            <img src=disc.png alt="logo">
+        </div>    
+    </div>
+    <div class="welcome-container"> 
+    <div class="welcome">
+        <a><i>Welcome !</i></a>
+        </div>
+    </div>
+
+    <div class="intro" id="intro">
+        <p>This is a test website for practice</p>
+        <p>It is about cars in this website</p>
+        <p>You can either buy or sell jdm cars here</p>
+    </div>
+
+    <div class="Gtr">
+        <p>Nissan skyline-GTR</p>
+    </div>
+
+    <div class="music-player">
+        <div class="song-name">Love roulette - dazegxd</div>
+        <div class="progress-container">
+            <input type="range" id="progress-bar" value="0" min="0" step="0.1" max="200">
+        </div>
+        <div class="controls">
+            <button>&lt;</button>
+            <button onclick="playPause()" id="play">Play</button>
+            <button>&gt;</button>
+    <audio id="player">
+        <source src="love roulette.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
